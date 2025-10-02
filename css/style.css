@@ -1,0 +1,315 @@
+ #imagem{
+width: 75%;
+
+ }
+  hr{
+
+  }
+  
+  .minha-imagem {
+    max-width: 100%; 
+    height: auto;
+  }
+
+  .logo {
+    height: 60px; 
+    width: auto;   
+  }
+
+  body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif, sans-serif;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+.carro input {
+  width: 30px;
+  height: 30px;
+}
+
+footer p {
+  flex: 1;                     
+  text-align: center; 
+  margin: 0;         
+}
+
+.logo-footer {
+  width: 80px;
+  margin-left: 10px;          
+
+  }
+
+    footer div{
+      display: flex;
+    }
+  
+  .redes a {
+    color: white;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  
+  .redes a:hover {
+    text-decoration: underline;
+  }
+  .video-promocional, .galeria{
+    text-align: center;
+    margin: 30px 20px;
+  }
+  .tabela-modelos{
+    text-align: center;
+  }
+  .video{
+    width: -30%;
+  }
+  
+  .galeria.imagens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 17px;
+  }
+
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #1a4de6;
+    color: rgb(230, 230, 236);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+  
+  button:hover {
+    background-color: #f1f4f7;
+    transform: scale(1.05);
+  }
+
+  .formulario-contato {
+    max-width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  strong{
+  text-transform: uppercase;
+  margin-left: -7rem;
+  border: 0;
+
+  }
+  .formulario-contato h1 {
+    text-align: center;
+    color: #1b3571;
+    margin-bottom: 20px;
+  }
+  
+  .formulario-contato label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .formulario-contato input,
+  .formulario-contato select,
+  .formulario-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .formulario-contato button {
+    border-radius: 20px;
+    background-color: #174be8;
+    display: flex;
+    color: white;
+    padding: 15px;
+    width: 100px;
+    position: relative;
+    margin-left: 11rem;
+  }
+
+  input::placeholder,
+textarea::placeholder,
+select::placeholder {
+  color: #999;       
+  font-weight: normal; 
+}
+
+  
+.tx {
+color: aliceblue;
+}
+  .container {
+    display: flex;      
+    justify-content: center;  
+    align-items: center;     
+    gap: 40px;             
+    margin-top: 50px;
+}
+
+galeria .imagens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .galeria img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.logo home {
+  width: 80px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1b3571;
+  font-weight: bold;
+}
+
+.banner video {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.botao-comparar-button:hover {
+  background: #002db3;
+}
+
+footer {
+  background: #1b3571;
+  color: white;
+  margin-top: 150px;
+  padding: 10px 20px;
+  width: 100%;                
+  display: flex;
+  justify-content: space-between; 
+  position: relative;
+  box-sizing: border-box;     
+} 
+
+footer p {
+  flex: 1;                     
+  text-align: center;          
+}
+
+.logo-footer {
+  width: 80px;
+  margin-left: 20px;          
+
+}
+
+.logo-footer {
+  display: block;
+  margin: 15px auto;   
+  width: 80px; 
+}        
+
+
+footer .redes img {
+  width: 25px;
+  margin: 0 5px;
+}
+
+.logo-footer {
+  width: 80px;
+  margin-top: 20px;
+}
+
+.footer {
+  background: #1b3571;
+  color: white;
+  padding: 20px;
+  text-align: center; 
+}
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2; 
+  }
+  </style>
+
+.tabela-modelos
+  <tr>
+    th>Comparar</th>
+    <th>Modelo</th>
+    <th>Preço (R$)</th>
+ 
+  body {
+  background-color: #f2f2f2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif, sans-serif;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: darkblue;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #525050;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #ddd;
+}
+
+.opcao-carro {
+  display: center;              
+  gap: 8px;                
+  cursor: pointer;
+  width: 100%;
+  height: 18px;         
+}
